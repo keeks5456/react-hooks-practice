@@ -1,5 +1,7 @@
 import React from 'react'
 
+// class component equal for comparison
+
 class ClassCounter extends React.Component{
     constructor(props){
         super(props)
