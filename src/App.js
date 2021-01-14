@@ -3,16 +3,18 @@ import HookCounter from './components/HookCounter'
 import HookCounterTwo from './components/HookCounterTwo'
 import ClassCounterTwo from './components/ClassCounterTwo';
 import HookCounter3 from './components/HookCounter3'
+import HookCounterFour from './components/HookCounterFour';
 import './App.css';
 
 function App() {
 	return (
 		<div className="App">
 			{/* <ClassCounter /> */}
-      {/* <HookCounter /> */}
+      <HookCounter />
       {/* <HookCounterTwo /> */}
       {/* <ClassCounterTwo /> */}
-      <HookCounter3 />
+      {/* <HookCounter3 /> */}
+      {/* <HookCounterFour /> */}
 		</div>
 	);
 }
