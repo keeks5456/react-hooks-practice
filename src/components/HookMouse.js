@@ -13,6 +13,10 @@ function HookMouse() {
     useEffect(() => {
         console.log('useEffect called')
         window.addEventListener('mousemove', logMousePosition)
+
+        return () => {
+            window.removeEventListener('mousemove', logMousePosition)
+        }
     },[]) //we pass in an empty array as a param b.c we dont want our useEffect to keep re-rendering 
 
     return (
